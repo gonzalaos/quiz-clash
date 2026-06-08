@@ -29,8 +29,8 @@ services:
   backend:
     build: ./backend
     depends_on:
-      - db:
-          condition: services_healthy
+      db:
+        condition: services_healthy
     environment:
       SERVER_SERVLET_CONTEXT_PATH: /api
       SPRING_DATASOURCE_USERNAME: postgres
