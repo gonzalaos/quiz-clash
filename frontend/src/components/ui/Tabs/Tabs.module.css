@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  background-color: var(--bg-input);
+  border-radius: 8px;
+  padding: 4px;
+  width: 100%;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.tab.active {
+  background-color: var(--color-primary);
+  color: var(--text-primary);
+}

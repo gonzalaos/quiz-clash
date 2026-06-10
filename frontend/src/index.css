@@ -1,12 +1,28 @@
 :root {
-  font-family: system-ui, Avenir, Arial, Helvetica, sans-serif;
+  font-family: "Poppins", system-ui, Avenir, Arial, Helvetica, sans-serif;
   color-scheme: light dark;
   background-color: #242424;
   color: rgba(255, 255, 255, 0.87);
+  --bg-main: #22252e;
+  --bg-card: #1a1d24;
+  --bg-input: #15181e;
+  --color-primary: #5c55d9;
+  --color-primary-hover: #4b44b8;
+  --text-primary: #ffffff;
+  --text-secondary: #8b949e;
+  --border-color: #2d3340;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: inherit;
 }
 
 body {
   margin: 0;
+  font-family: "Poppins", system-ui, sans-serif;
   display: flex;
   place-items: center;
   min-width: 100vw;
